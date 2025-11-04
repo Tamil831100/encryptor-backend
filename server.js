@@ -13,7 +13,7 @@ const app = express();
 // ✅ CORS: Allow your Netlify frontend and local dev
 app.use(cors({
   origin: [
-    "lighthearted-capybara-a67134.netlify.app", // 🔁 replace with your actual Netlify site URL
+    "securedatashare.netlify.app", // 🔁 replace with your actual Netlify site URL
     "http://localhost:5173" // allow local development
   ],
 }));
